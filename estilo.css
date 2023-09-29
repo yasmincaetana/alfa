@@ -1,0 +1,376 @@
+body{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px; 
+    overflow-x: hidden; 
+}
+
+.topo {
+    width: 1024px;
+    padding:35px 0px;
+    margin: auto;
+    display: flex;
+    
+
+}
+
+.topo a {
+    margin: 0px 12px;
+    color: #233032;
+    text-decoration: none;
+}
+
+.topo img{
+    width: 25%;
+}
+
+.logo{
+    display: flex;
+    width: 320px;
+}
+
+.logo p{
+    margin-top: 35px;
+} 
+
+.logo h1{
+    margin-top: 15px;
+}
+.logo div{
+    display: block;
+    line-height: 10px;
+    margin-left: 15px;
+    text-align: left; 
+}
+
+.links{
+    margin-left: 20%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+span{
+    color: #2f86d6;
+    font-weight: bold;
+}
+
+.banner{
+    color:white;
+    background-color: #2f86d6;
+    padding: 180px 0;
+    box-sizing: border-box;
+}
+
+.banner img{
+    width: 50%;
+}
+
+.cont{
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    text-align: left;
+}
+
+.cont div{
+    width: 470px;
+    margin-top: 10%;
+}
+
+.anun{
+    background-color: #233032;
+    color: white;
+    padding: 50px 0px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.anun a{
+    text-decoration: none;
+    color: white;
+    background-color: #2f86d6;
+    padding: 10px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.anun img{
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+.botao{
+   padding-left: 200px;
+   
+}
+
+.botao a{
+    padding: 10px;
+
+    
+}
+   
+.cont2{
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    text-align: left;
+}
+
+.txt{
+    text-align: left;
+    width: 600px;
+}
+
+.inf h1{
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+.inf1 img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.inf2 img{
+    width: 100px;
+    height: 100px;
+     display: inline-block;
+}
+.inf3 img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.inf p{
+    width: 350px;
+}
+.inf1, .inf2, .inf3{
+ display: inline-block;
+ text-align: center;
+ padding-top: 100px;
+ padding-bottom: 100px;
+ margin: 0 90px;
+ font-size: 15px;
+}
+.anun2{
+    background-color: #2f86d6 ;
+    color: white;
+    padding: 50px 0px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.anun2 a{
+    text-decoration: none;
+    color: white;
+    background-color:#233032;
+    padding: 10px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.anun2 img{
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+.botao2{
+   padding-right: 400px;
+}
+   
+.cont3{
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    text-align: left;
+}
+
+.txt1 h2{
+    text-align: left;
+    width: 600px;
+    padding-left: 200px;
+}
+.fundo{
+    background-color: rgb(224, 224, 224);
+    height: 900px;
+}
+.planos img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    
+}
+.logo-fim img{
+    width: 40%;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.logo-fim{
+    display: flex;
+    width: 320px;
+    display: inline-block;
+    margin-left: 400px;
+}
+
+.logo-fim div{
+    margin-top: 35px;
+    color: #233032;
+    font-size: 35px;
+} 
+.fundo {
+    background-color: rgb(224, 224, 224);
+    min-height: 800px; /* Adicione uma altura mínima para a div .fundo */
+    position: relative; /* Defina a posição relativa para .fundo */
+}
+
+.logo-fim {
+    flex: 1;
+}
+.logo-fim div{
+    display: block;
+    line-height: 10px;
+    margin-left: 15px;
+    text-align: left; 
+}
+
+
+
+.contato p{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-fim {
+    margin-bottom: 20px; /* Espaçamento opcional entre a logo e as informações */
+}
+
+.logo-fim img{
+    margin-left: -490px;
+    margin-bottom: -140px;
+    width: 30%;
+}
+span{
+    color: #2f86d6;
+    font-weight: bold;
+    top: -100px;
+
+}
+h1{
+    font-weight: bold;
+}
+
+
+
+table{
+    text-align: center;
+    width: 50%;
+    padding: 5px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.borda{
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 5px 5px 25px 5px #2f86d6 ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 30px 10px;
+}
+
+.borda p{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px 1;
+    color: rgba(79, 77, 77, 0.5);;
+}
+
+.borda th {
+    padding-top: 15px;
+    border: 3px solid rgba(240, 233, 233, 0.5); /* Defina a transparência ajustando o valor alfa (0 = totalmente transparente, 1 = totalmente opaco) */
+    background: white;
+    text-align: center;
+    width: 25vw;
+    line-height: 20px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.borda td {
+    border: 3px solid rgba(240, 233, 233, 0.5); /* Defina a transparência ajustando o valor alfa (0 = totalmente transparente, 1 = totalmente opaco) */
+
+    text-align: center;
+    width: 25vw;
+    line-height: 20px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding: 20px;
+}
+.cinza{
+    background-color:  rgba(240, 233, 233, 0.5);
+}
+
+.borda tr {
+    border: 1px solid rgba(240, 233, 233, 0.5); /* Defina a transparência ajustando o valor alfa (0 = totalmente transparente, 1 = totalmente opaco) */
+    text-align: center;
+    width: 25vw;
+    line-height: 20px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+
+caption{
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.ultimo {
+    background-color: #f6f6f6;
+    font-size: 20px;
+    box-sizing: border-box;
+    color: rgb(7, 7, 7);
+    right: 200px;
+    width: -100px;
+    padding: 30px;
+    justify-content: center;
+}
+
+
+
+.ultimo p {
+    margin: 0;
+}
+
+.ultimo span {
+    font-weight: bold;
+    color: #2f86d6;
+}
+
+
+
+.planos{ 
+    text-align: center;
+
+}
+.frase {
+    margin-bottom: 100px;
+}
+
+.contato{
+    height:-30;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
